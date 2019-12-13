@@ -12,7 +12,7 @@ node {
          * docker build on the command line */
 
        /* app = docker.build("getintodevops/hellonode") */
-        app = docker.build("jassu2017/mywebsite-docker")
+        app = docker.build("jassu2017/mywebsite")
     }
 
     stage('Test image') {
